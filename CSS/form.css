@@ -1,10 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .form-contairn{
     position: relative;
-    left: 35%;
-    width: 28%;
-    height: 600px;
-    background-image: url('/img/fondo.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 40%;
+    height: 620px;
+    left: 30%;
+    top: 40px;
+    box-shadow: 10px 20px 35px rgb(233, 171, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 171, 251, 0.849);
+}
+
+.form-title{
+    display: flex;
+    justify-content: end;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    font-size: 35px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    height: 9%;
+    width: 90%;
+    font-size: 22px;
+    background: rgb(75, 71, 67);
+    color: snow;
+    border-radius: 10px;
+    border: none;   
+}
+
+.form-terminos{
+    padding-bottom: 3%;
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.form-link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.form-button{
+    width: 90%;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+
+.form-iniciarSeccion{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
 }
